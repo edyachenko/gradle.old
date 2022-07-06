@@ -1,0 +1,15 @@
+12:06:33.314 [Test worker] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 15 - let's create a new webdriver
+12:06:33.318 [Test worker] INFO  c.c.selenide.impl.FileHelper - Creating folder: /Users/ssyvolobov/Desktop/PublisherAutomation/build/downloads/1657098393317_96289_15
+12:06:33.616 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
+12:06:33.629 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/ssyvolobov/.cache/selenium/chromedriver/mac64/103.0.5060.53/chromedriver
+12:06:35.631 [Test worker] INFO  c.c.s.webdriver.HttpClientTimeouts - Changed connectTimeout from 120000 to 60000
+12:06:35.644 [Test worker] INFO  c.c.s.webdriver.HttpClientTimeouts - Changed readTimeout from 10800000 to 120000
+12:06:35.644 [Test worker] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1600x900
+12:06:35.777 [Test worker] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=chrome Version=103.0.5060.114 Platform=MAC
+12:06:35.777 [Test worker] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 5.24.0
+12:06:35.777 [Test worker] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+12:06:35.777 [Test worker] INFO  c.c.s.d.CreateDriverCommand - Create webdriver in current thread 15: ChromeDriver -> ChromeDriver: chrome on MAC (11368859bb9d7f1e8426a3e3e9890d1a)
+12:08:14.222 [Thread-3] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 32 -> ChromeDriver: chrome on MAC (11368859bb9d7f1e8426a3e3e9890d1a)...
+12:08:14.223 [Thread-4] INFO  c.c.selenide.impl.FileHelper - Deleted empty folder: /Users/ssyvolobov/Desktop/PublisherAutomation/build/downloads/1657098393317_96289_15
+12:08:14.279 [Webdrivers killer thread] INFO  c.c.s.i.UnusedWebdriversCleanupThread - Thread 15 is dead. Let's close webdriver ChromeDriver: chrome on MAC (11368859bb9d7f1e8426a3e3e9890d1a)
+12:08:14.525 [Thread-3] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 32 in 303 ms
